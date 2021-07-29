@@ -40,8 +40,8 @@ def get_all_mobile_users():
     return {key: val for key, val in zip(range(len(orig_new)), orig_new['mobile_number'].unique())}
 
 
-@app.get('/similarity')
-def get_similarity(mobile_number: str):
+@app.get('/similarity/{mobile_number}')
+async def get_similarity(mobile_number: str):
     if mobile_number not in orig_new['mobile_number'].unique():
         return {'error': 'user not found'}
 
