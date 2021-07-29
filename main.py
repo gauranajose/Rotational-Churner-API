@@ -45,7 +45,8 @@ def home():
 
 @app.get('/users')
 def get_all_mobile_users():
-    return {key: val for key, val in zip(range(len(orig_new)), orig_new['mobile_number'].unique())}
+    # return {key: val for key, val in zip(range(len(orig_new)), orig_new['mobile_number'].unique())}\
+    return orig_new['mobile_number'].unique().tolist()
 
 
 @app.get('/similarity/{mobile_number}')
