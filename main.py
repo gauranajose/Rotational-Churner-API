@@ -1,10 +1,18 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 
 import pandas as pd
 import numpy as np
 import json
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 orig_churn = pd.read_csv('./data/churned_user_data.csv')
 orig_new = pd.read_csv('./data/new_user_data.csv')
