@@ -487,7 +487,7 @@ activity_id,mobile_number,activity,date,date(time),duration(min),length_of_text,
 303704,68590761745,online_support,1/31/2020,7:03,0:06:28,,,,finance_support,150,Paranaque,13
 342082,51625684025,online_shopping,3/31/2020,14:54,0:50:55,,,,shopee,450,Las Pinas,7
 758384,55585169628,twitter,9/22/2020,20:49,,,,,twitter.com,1250,Manila,4
-690825,60007053340,facebook,9/3/2020,1:30,0:21:27,,,,facebook.com,500,Manila,14
+690825,60007053340,load,4/25/2020,17:47,0:08:49,,Regular Load,100,loading,,Manila,4
 501072,96970438070,bank,4/18/2020,0:43,0:19:30,,,,bpi,250,Manila,9
 768905,12356324657,online_shopping,6/22/2020,9:13,,,,,lazada,150,Mandaluyong,9
 172883,88502469838,call,4/15/2020,0:07,0:51:31,,,,92379306924,100,Malabon,3
@@ -3439,11 +3439,11 @@ activity_id,mobile_number,activity,date,date(time),duration(min),length_of_text,
 652043,55585169628,online_support,9/25/2020,21:40,0:34:55,,,,technical_support,60,Manila,4
 834133,55585169628,bank,9/26/2020,19:06,0:26:49,,,,bdo,250,Manila,5
 291773,55585169628,text,9/27/2020,1:00,,223,,,91182077705,1.76,Manila,15
-932162,60007053340,youtube,9/4/2020,10:09,0:02:16,,,,youtube.com,5000,Manila,3
-989435,60007053340,bank,9/5/2020,19:10,0:50:35,,,,bdo,150,Manila,7
-293321,60007053340,twitter,9/6/2020,17:16,0:08:00,,,,twitter.com,250,Manila,13
-143918,60007053340,bank,9/7/2020,19:26,0:15:04,,,,bpi,150,Manila,7
-472532,60007053340,twitter,9/8/2020,6:16,0:41:18,,,,twitter.com,250,Manila,1
+932162,60007053340,twitter,4/26/2020,9:05,0:22:32,,,,twitter.com,250,Manila,14
+989435,60007053340,online_game,4/27/2020,15:32,0:43:21,,,,game b,2500,Manila,10
+293321,60007053340,twitter,4/28/2020,18:25,0:08:00,,,,twitter.com,250,Manila,6
+143918,60007053340,online_game,4/29/2020,14:30,0:42:04,,,,game a,1500,Manila,3
+472532,60007053340,online_game,4/30/2020,6:16,0:41:18,,,,game b,1500,Manila,9
 118633,96970438070,load,4/19/2020,1:23,0:41:13,,GoSakto70,100,loading,,Manila,16
 855649,96970438070,online_shopping,4/20/2020,16:08,0:31:38,,,,lazada,150,Manila,12
 552801,96970438070,bank,4/21/2020,8:47,0:42:41,,,,bdo,100,Manila,5
